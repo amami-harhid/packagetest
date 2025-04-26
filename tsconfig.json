@@ -4,5 +4,6 @@
   "compilerOptions": {
     "target": "es2020", // es2018,es2019,es2020,esnext が適している
     "module": "es2020",
+    "outDir": "./dist"
   }
 }
