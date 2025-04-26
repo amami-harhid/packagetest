@@ -15,7 +15,9 @@
   "devDependencies": {
     "@amami-harhid/tscratch3likejs": "^0.0.6",
     "@eslint/js": "^9.25.1",
+    "child_process": "^1.0.2",
     "eslint": "^9.25.1",
+    "glob": "^11.0.2",
     "parcel": "^2.14.4",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.31.0"
