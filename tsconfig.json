@@ -4,6 +4,19 @@
   "compilerOptions": {
     "target": "es2020", // es2018,es2019,es2020,esnext が適している
     "module": "es2020",
-    "outDir": "./build"
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@typeJS/*": ["./node_modules/@amami-harhid/tscratch3likejs/types/scratchjs/*"],
+    },
+    "sourceMap": true,
+    "outDir": "./build",
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": false,     // 暗黙的な「any」型を許可。
+    "noImplicitThis": true,     // 暗黙的なthisの型推定を「禁止」。 
+    "skipLibCheck": true
   }
 }

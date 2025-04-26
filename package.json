@@ -1,14 +1,10 @@
 {
   "name": "@amami-harhid/packagetest",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "nothing",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/tsc"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/amami-harhid"
   },
   "author": "amami-harhid",
   "license": "AGPL-3.0-only",
@@ -17,6 +13,14 @@
   },
   "homepage": "https://github.com/amami-harhid/packagetest#readme",
   "devDependencies": {
-    "typescript": "^5.7.3"
+    "@amami-harhid/tscratch3likejs": "^0.0.6",
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "parcel": "^2.14.4",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.31.0"
+  },
+  "dependencies": {
+    "@amami-harhid/scratch3likejslib": "^0.0.4"
   }
 }
