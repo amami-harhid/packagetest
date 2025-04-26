@@ -1,14 +1,14 @@
 {
   "name": "@amami-harhid/packagetest",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "nothing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/amami-harhid",
-    "prepare": "./node_modules/.bin/tsc"
+    "registry": "https://npm.pkg.github.com/amami-harhid"
   },
   "author": "amami-harhid",
   "license": "AGPL-3.0-only",
