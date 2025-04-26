@@ -1,0 +1,8 @@
+{
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules/*"],
+  "compilerOptions": {
+    "target": "es2020", // es2018,es2019,es2020,esnext が適している
+    "module": "es2020",
+  }
+}
