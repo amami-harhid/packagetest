@@ -1,6 +1,6 @@
 {
   "name": "@amami-harhid/packagetest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "nothing",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/amami-harhid",
-    "prepare": "tsc"
+    "prepare": "./node_modules/.bin/tsc"
   },
   "author": "amami-harhid",
   "license": "AGPL-3.0-only",
